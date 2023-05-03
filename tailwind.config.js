@@ -61,6 +61,7 @@ module.exports = {
         glow: "url('/assets/glow.svg')",
         star: "url('/assets/star.svg')",
         ring: "url('/assets/rings.svg')",
+        ring2: "url('/assets/rings2.svg')",
       },
     },
   },

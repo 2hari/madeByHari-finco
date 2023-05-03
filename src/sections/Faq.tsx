@@ -2,12 +2,12 @@ import React from "react"
 
 const Faq = () => {
   return (
-    <div className="px-6 md:py-0 mt-8 lg:mt-0 lg:px-16 xl:px-40 2xl:px-52 lg:container mx-auto ">
+    <div className="px-6 md:py-0 mt-8 lg:mt-0 lg:px-16 xl:px-40 2xl:px-52 lg:container mx-auto relative">
       <p className="text-primary font-medium text-lg items-start">Faq</p>
-      <p className="text-2xl md:text-4xl font-bold items-start py-4">
+      <p className="text-2xl md:text-4xl font-bold items-start py-4 ">
         Frequently Asked Questions
       </p>
-      <div className="flex flex-col md:flex-row justify-between items-center my-4 md:my-10 ">
+      <div className="flex flex-col md:flex-row justify-between items-center my-4 md:my-10 md:before:content-star before:absolute before:top-16 before:left-2/3 lg:before:top-20 lg:before:left-2/3 after:absolute md:after:content-star after:-bottom-20 after:right-0 lg:after:-bottom-20 lg:after:right-0">
         <div className="flex flex-col gap-5 items-start">
           <div className="flex flex-col gap-2 bg-primary p-3 md:px-6 md:py-6 rounded-lg ">
             <p className="text-lg md:text-xl font-semibold text-white">

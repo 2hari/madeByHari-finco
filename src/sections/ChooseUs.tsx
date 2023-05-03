@@ -3,8 +3,8 @@ import React from "react"
 
 const ChooseUs = () => {
   return (
-    <div className="px-6 md:py-0 mt-8 lg:mt-0 lg:container mx-auto ">
-      <div className="flex flex-col md:flex-row justify-between items-center">
+    <div className="px-6 md:py-0 mt-8 lg:mt-0 lg:container mx-auto relative">
+      <div className="flex flex-col md:flex-row justify-between items-center md:before:content-star before:absolute before:top-8 before:right-4 lg:before:top-8 lg:before:right-4">
         <div className="flex flex-col gap-3 md:gap-5 items-start w-full md:max-w-[50%] ">
           <p className="text-primary font-medium md:text-lg items-start">
             Advantage

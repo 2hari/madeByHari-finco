@@ -3,8 +3,8 @@ import Image from "next/image"
 
 const Customize = () => {
   return (
-    <div className="px-6 md:py-0 mt-8 lg:mt-0  lg:container mx-auto ">
-      <div className="flex flex-col-reverse md:flex-row justify-between items-center">
+    <div className="px-6 md:py-0 mt-8 lg:mt-0  lg:container mx-auto relative">
+      <div className="flex flex-col-reverse md:flex-row justify-between items-center md:before:content-star before:absolute before:-top-6 before:right-1/2 lg:before:top-8 lg:before:right-1/2">
         <div className="h-[290px] w-[290px] xs:h-[395px] xs:w-[395px] md:h-[500px] md:w-[500px] xl:h-[720px] xl:w-[720px] relative">
           <Image
             src="/assets/customize.svg"

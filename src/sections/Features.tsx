@@ -4,8 +4,8 @@ import Image from "next/image"
 const Features = () => {
   return (
     <div className="px-6 md:py-0  lg:container mx-auto ">
-      <div className="flex flex-col-reverse md:flex-row justify-between items-center">
-        <div className="h-[290px] w-[290px] xs:h-[395px] xs:w-[395px] md:h-[500px] md:w-[500px] xl:h-[720px] xl:w-[720px] relative">
+      <div className="flex flex-col-reverse md:flex-row justify-between items-center relative">
+        <div className="h-[290px] w-[290px] xs:h-[395px] xs:w-[395px] md:h-[500px] md:w-[500px] xl:h-[720px] xl:w-[720px] relative md:before:content-star before:absolute before:top-6 before:left-0 lg:before:top-20 lg:before:left-4">
           <Image
             src="/assets/subhero.svg"
             alt="subhero"
@@ -13,7 +13,7 @@ const Features = () => {
             className="object-cover overflow-visible"
           />
         </div>
-        <div className="flex flex-col gap-3 md:gap-5 items-start w-full md:max-w-[50%] ">
+        <div className="flex flex-col gap-3 md:gap-5 items-start w-full md:max-w-[50%] md:before:content-glow before:absolute before:z-[-1] before:-top-52 xl:before:top-10  xl:before:-right-8 before:-right-3">
           <p className="text-primary font-medium md:text-lg items-start">
             Features
           </p>

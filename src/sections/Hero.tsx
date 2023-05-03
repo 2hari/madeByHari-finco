@@ -29,8 +29,8 @@ const Hero = () => {
                 </Link>
               </div>
             </div>
-            <div className="flex items-center gap-4">
-              <button className="max-md:btn-sm btn btn-active rounded-none hover:bg-primary border-none">
+            <div className="flex items-center gap-4 relative">
+              <button className="max-md:btn-sm btn btn-active rounded-none hover:bg-primary border-none md:after:content-star after:absolute after:top-16 after:-right-4">
                 Download Now
               </button>
               <label htmlFor="my-drawer" className="lg:hidden drawer-button">
@@ -53,8 +53,8 @@ const Hero = () => {
           </div>
           <div className="lg:container mx-auto md:mt-20 xl:mt-0 px-6">
             <div className="flex flex-col-reverse md:flex-row justify-between items-center">
-              <div className="flex flex-col gap-5 lg:pt-16 max-w-sm lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl">
-                <p className="text-3xl md:text-4xl xl:text-6xl font-bold">
+              <div className="flex flex-col gap-5 lg:pt-16 max-w-sm lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl relative">
+                <p className="text-3xl md:text-4xl xl:text-6xl font-bold after:absolute md:after:content-glow after:-top-10 after:left-5 lg:after:top-10 lg:after:left-40 after:z-[-1]">
                   Make The Best Financial Decisions
                 </p>
                 <p>
@@ -71,12 +71,12 @@ const Hero = () => {
                     <p className="text-xl font-medium">Watch</p>
                   </div>
                 </div>
-                <div className="hidden md:block mt-8 h-[217px] w-[291px] lg:h-[290px] lg:w-[470px] xl:h-[350px] xl:w-[569px] relative">
+                <div className="hidden md:block mt-8 h-[217px] w-[291px] lg:h-[290px] lg:w-[470px] xl:h-[350px] xl:w-[569px] relative md:before:content-star before:absolute before:-top-4 before:left-16 lg:before:top-8 lg:before:left-32">
                   <Image
                     src="/assets/downhero.svg"
                     alt="downhero"
                     fill
-                    className="object-contain"
+                    className="object-contain "
                   />
                 </div>
               </div>
