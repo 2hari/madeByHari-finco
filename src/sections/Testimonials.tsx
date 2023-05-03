@@ -11,7 +11,7 @@ const Testimonials = () => {
       <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="h-[290px] w-[290px] xs:h-[395px] xs:w-[395px] md:h-[500px] md:w-[500px] xl:h-[720px] xl:w-[720px] relative">
           <Image
-            src="/assets/testimonials.png"
+            src="/assets/testimonials.svg"
             alt="testimonial"
             fill
             className="object-cover overflow-visible"

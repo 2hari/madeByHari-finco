@@ -3,7 +3,7 @@ import React from "react"
 
 const ChooseUs = () => {
   return (
-    <div className="px-6 md:py-0 mt-8 lg:mt-0 xl:px-0  lg:container mx-auto ">
+    <div className="px-6 md:py-0 mt-8 lg:mt-0 lg:container mx-auto ">
       <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="flex flex-col gap-3 md:gap-5 items-start w-full md:max-w-[50%] ">
           <p className="text-primary font-medium md:text-lg items-start">
@@ -39,7 +39,7 @@ const ChooseUs = () => {
         </div>
         <div className="h-[290px] w-[290px] xs:h-[395px] xs:w-[395px] md:h-[500px] md:w-[500px] xl:h-[720px] xl:w-[720px] relative">
           <Image
-            src="/assets/choose.png"
+            src="/assets/choose.svg"
             alt="chose"
             fill
             className="object-cover"

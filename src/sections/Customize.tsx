@@ -3,11 +3,11 @@ import Image from "next/image"
 
 const Customize = () => {
   return (
-    <div className="px-6 md:py-0 mt-8 lg:mt-0 xl:px-0  lg:container mx-auto ">
+    <div className="px-6 md:py-0 mt-8 lg:mt-0  lg:container mx-auto ">
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         <div className="h-[290px] w-[290px] xs:h-[395px] xs:w-[395px] md:h-[500px] md:w-[500px] xl:h-[720px] xl:w-[720px] relative">
           <Image
-            src="/assets/customise.png"
+            src="/assets/customize.svg"
             alt="customise"
             fill
             className="object-cover overflow-visible"

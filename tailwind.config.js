@@ -8,15 +8,15 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    container: {
-      padding: {
-        DEFAULT: "1rem",
-        sm: "2rem",
-        lg: "6rem",
-        xl: "7rem",
-        "2xl": "4rem",
-      },
-    },
+    // container: {
+    //   padding: {
+    //     DEFAULT: "1rem",
+    //     sm: "2rem",
+    //     lg: "6rem",
+    //     xl: "7rem",
+    //     "2xl": "4rem",
+    //   },
+    // },
     fontFamily: {
       monoton: ["Monoton", "cursive"],
       satoshi: ["Satoshi", "sans-serif"],
@@ -56,6 +56,11 @@ module.exports = {
       },
       screens: {
         xs: "400px",
+      },
+      content: {
+        glow: "url('/assets/glow.svg')",
+        star: "url('/assets/star.svg')",
+        ring: "url('/assets/rings.svg')",
       },
     },
   },
