@@ -16,7 +16,7 @@ const ChooseUs = () => {
             <div className="flex items-center gap-1 md:gap-3">
               <div className="h-8 w-8 md:h-12 md:w-12 relative">
                 <Image
-                  src="/assets/bell.svg"
+                  src="/assets/Bell.svg"
                   alt="bell"
                   fill
                   className="object-cover"

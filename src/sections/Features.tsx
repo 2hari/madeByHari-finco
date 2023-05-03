@@ -23,7 +23,7 @@ const Features = () => {
           <div className="flex flex-col gap-1 md:gap-2">
             <div className="flex items-center gap-1 md:gap-3">
               <Image
-                src="/assets/budget.svg"
+                src="/assets/Budget.svg"
                 alt="budget"
                 height={24}
                 width={24}
