@@ -3,6 +3,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { BsArrowRight } from "react-icons/bs"
 import { MdSlowMotionVideo } from "react-icons/md"
+import AdminSidebar from "./AdminSidebar"
 
 const Hero = () => {
   return (
@@ -54,7 +55,7 @@ const Hero = () => {
           <div className="lg:container mx-auto md:mt-20 xl:mt-0 px-6">
             <div className="flex flex-col-reverse md:flex-row justify-between items-center">
               <div className="flex flex-col gap-5 lg:pt-16 max-w-sm lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl relative">
-                <p className="text-3xl md:text-4xl xl:text-6xl font-bold after:absolute md:after:content-glow after:-top-10 after:left-5 lg:after:top-10 lg:after:left-40 after:z-[-1]">
+                <p className="text-3xl md:text-4xl xl:text-6xl font-bold after:absolute md:after:content-glow after:-top-36 after:left-5 lg:after:-top-24 lg:after:left-40 after:z-[-1]">
                   Make The Best Financial Decisions
                 </p>
                 <p>
@@ -73,7 +74,7 @@ const Hero = () => {
                 </div>
                 <div className="hidden md:block mt-8 h-[217px] w-[291px] lg:h-[290px] lg:w-[470px] xl:h-[350px] xl:w-[569px] relative md:before:content-star before:absolute before:-top-4 before:left-16 lg:before:top-8 lg:before:left-32">
                   <Image
-                    src="/assets/downhero.svg"
+                    src="/assets/hero2.svg"
                     alt="downhero"
                     fill
                     className="object-contain "
@@ -90,6 +91,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
+
           {/* PAGE CONTENT END */}
         </div>
         <div className="drawer-side">
@@ -110,6 +112,7 @@ const Hero = () => {
           </ul>
         </div>
       </div>
+      <AdminSidebar />
     </div>
   )
 }
