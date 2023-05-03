@@ -12,7 +12,7 @@ const ChooseUs = () => {
           <p className="text-2xl md:text-4xl font-bold items-start">
             Why Choose Finco?
           </p>
-          <div className="flex flex-col gap-1 md:gap-2">
+          <div className="flex flex-col gap-1 md:gap-4">
             <div className="flex items-center gap-1 md:gap-3">
               <div className="h-8 w-8 md:h-12 md:w-12 relative">
                 <Image

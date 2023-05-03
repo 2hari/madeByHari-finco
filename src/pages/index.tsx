@@ -2,6 +2,10 @@ import Head from "next/head"
 import Features from "@/sections/Features"
 import ChooseUs from "@/sections/ChooseUs"
 import Customize from "@/sections/Customize"
+import Testimonials from "@/sections/Testimonials"
+import Faq from "@/sections/Faq"
+import GetStarted from "@/sections/GetStarted"
+import Footer from "@/sections/Footer"
 
 export default function Home() {
   return (
@@ -18,6 +22,10 @@ export default function Home() {
       <Features />
       <ChooseUs />
       <Customize />
+      <Testimonials />
+      <Faq />
+      <GetStarted />
+      <Footer />
     </div>
   )
 }
