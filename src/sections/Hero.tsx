@@ -3,7 +3,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { BsArrowRight } from "react-icons/bs"
 import { MdSlowMotionVideo } from "react-icons/md"
-import AdminSidebar from "./AdminSidebar"
+import Hari from "./Hari"
 
 const Hero = () => {
   return (
@@ -112,7 +112,7 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <AdminSidebar />
+      <Hari />
     </div>
   )
 }
